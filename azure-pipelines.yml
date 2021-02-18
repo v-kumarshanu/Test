@@ -1,0 +1,5 @@
+stages:
+- stage: Stage1
+  jobs: 
+  - deployment: DeployLatest
+    environment: Latest
